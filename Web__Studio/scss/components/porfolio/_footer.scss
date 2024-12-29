@@ -1,0 +1,97 @@
+ /*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+/*# Open FFoootteerr                                                                                   Open   Footer                                                                                                Open FFoootteerr */
+ /*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+ footer {
+  padding: 60px 0;
+  background-color: $background-colors;
+  color: $text-color;
+
+  .tel-footer {
+    @extend %footer-text;
+  }
+
+  .mail-footer {
+    @extend %footer-text;
+  }
+
+  .v {
+    color: #FFFFFF;
+    margin: 0;
+    margin-top: 20px;
+
+    &:hover {
+      @include footer-transition;
+      color: #2196F3;
+    }
+  }
+
+  .footer-flex-box-1 {
+    @include flex-center(row, center);
+  }
+
+  .fotero-1 {
+    padding-right: 70px;
+  }
+
+  .join-footer,
+  .subscraib {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 16.41px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    margin-top: 0px;
+    color: $text-color;
+  }
+
+  .navisdscdsa {
+    padding-left: 93px;
+  }
+
+  .ddnavil {
+    @include flex-center(row, center);
+  }
+
+  .subscription-input {
+    padding-left: 12px;
+    font-size: 16px;
+    border: 1px solid #6c6d74;
+    border-radius: 4px;
+    color: #fff;
+    background-color: #2f303a;
+    width: 358px;
+    height: 50px;
+    margin-top: 20px;
+  }
+
+  .subscription-button {
+    @include button-style(#1e90ff, #fff);
+    margin-top: 20px;
+    width: 200px;
+    height: 52px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+
+    svg {
+      margin-left: 10px;
+    }
+  }
+
+  .but-fn {
+    padding-left: 12px;
+  }
+
+  .fotero-2 {
+    height: 110px;
+  }
+  .fotero-1 {
+    padding-top: 20px;
+  }
+}
+
+  
+ /*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+/*# Close FFoootteerr                                                                                  Close   Footer                                                                                              Close FFoootteerr */
+ /*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */

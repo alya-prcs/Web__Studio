@@ -1,0 +1,319 @@
+ /*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+/*# Open Section-1                                                                                       Open   Section-1                                                                                             Open Section-1 */
+ /*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+.list li {
+  width: 270px;
+}
+
+.list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.one {
+  padding: 200px 0;
+  text-align: center;
+}
+
+button {
+  border-radius: 4px;
+}
+
+.buttttonn {
+  width: 216px;
+  height: 50px;
+}
+
+.one {
+  background-color: $background-colors;
+  padding: 200px 0;
+}
+
+.hhh1 {
+  text-align: center;
+  color: $text-color;
+  font-family: Roboto;
+}
+
+.one button {
+  font-size: 16px;
+  font-weight: 700;
+  color: white;
+}
+
+.one h1 {
+  font-size: 44px;
+  font-weight: 900;
+  color: white;
+  line-height: 1.36;
+}
+
+.one {
+  background-image: url(../img/foto12.jpg);
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-size: 1600px 570px;
+}
+
+.hhh1 {
+  margin-bottom: 30px;
+  font-weight: 900;
+  font-size: 26px;
+  line-height: 1.6153846154;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.one {
+  display: flex;
+  justify-content: center;
+}
+
+.one {
+  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url('../img/new-foto/2-section-backround\(1x\).png');
+  background-size: cover;
+  @media (min-device-pixel-ratio: 2),
+    (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+        background-image: url('../img/new-foto/2-section-backround\(2x\).png');
+    }
+}
+
+
+/* modal */
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  opacity: 1;
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.backdrop.is-hidden {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.no-scroll {
+  overflow: hidden;
+}
+
+.modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 528px;
+  height: 581px;
+  border-radius: 4px 0px 0px 0px;
+  background-color: rgb(255, 255, 255);
+  transform: translate(-50%, -50%);
+}
+
+.bozx {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bozx .button {
+  margin: 0;
+}
+
+.lesssw {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 23.44px;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
+
+.sssssssss {
+  display: grid;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.iteam-form-s {
+  text-align: left;
+  margin: 0;
+}
+
+.label-text-form {
+  margin: 0;
+  padding: 0;
+  font-size: 12px;
+  font-weight: 400;
+  color: #646363;
+  margin-bottom: 4px;
+}
+
+.iteam-form-input {
+  border: 2px solid rgba(33, 33, 33, 0.2);
+  width: 400px;
+  height: 40px;
+  border: 1px 0px 0px 0px;
+  margin-bottom: 10px;
+}
+
+.iteam-form-inputs {
+  width: 400px;
+  height: 120px;
+  border-radius: 4px 0px 0px 0px;
+  border: 1px 0px 0px 0px;
+  border: 2px solid rgba(33, 33, 33, 0.2);
+  margin-bottom: 20px;
+}
+
+.checkbox121 {
+  width: 16px;
+  height: 15px;
+  top: 663px;
+  left: 588px;
+  gap: 0px;
+  opacity: 0px;
+  border: #000000;
+  margin-right: 8px;
+}
+
+.sss {
+  text-decoration: underline;
+  color: #2b9af3;
+  font-size: 14px;
+  font-weight: 400;
+  text-align: left;
+  align-items: center;
+}
+
+.ss3ws {
+  color: #757575;
+  font-size: 14px;
+  font-weight: 400;
+  text-align: left;
+  margin: 0;
+  padding: 0;
+}
+
+.iteam-form-ss {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 30px;
+}
+
+.btn {
+  align-items: center;
+  width: 200px;
+  height: 50px;
+  border-radius: 4px 0px 0px 0px;
+  border: none;
+}
+
+.sdscwc {
+  text-align: center;
+}
+
+.iteam-form-input:link {
+  border: 2px solid #58b0f6;
+  border-radius: 1px 0px 0px 0px;
+}
+
+.iteam-form-inputs {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14.06px;
+  letter-spacing: 0.01em;
+  text-align: left;
+  color: rgba(117, 117, 117, 0.5019607843);
+  padding: 15px;
+  resize: none;
+  width: 400px;
+  height: 100px;
+}
+
+.iteam-form-input {
+  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.iteam-form-input:focus-within {
+  border: 2px solid #58b0f6;
+}
+
+.poshiows {
+  position: relative;
+}
+
+.ssssq {
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  transform: translateY(-70%);
+}
+
+.iteam-form-input {
+  outline: 0;
+  padding-left: 40px;
+  border-radius: 3px;
+}
+
+.iteam-form-inputs {
+  width: 410px;
+  border-radius: 3px;
+}
+
+.iteam-form-inputs {
+  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.iteam-form-inputs:focus-within {
+  border: 2px solid #2196f3;
+  outline: 0;
+}
+
+.iteam-form-input+.ssssq .sss12 {
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.iteam-form-input:focus-within+.ssssq .sss12 {
+  fill: #2196f3;
+}
+
+.sss {
+  padding-left: 5px;
+}
+
+.svg12gscs {
+  text-align: right;
+  margin-right: 8px;
+  padding-top: 8px;
+}
+
+.modal {
+  border-radius: 6px;
+}
+
+.btm_box-n {
+  padding-bottom: 40px;
+}
+
+.iteam-form-inputs {
+  height: 90px;
+}
+
+.lesssw {
+  margin: 0;
+  padding-bottom: 12px;
+}
+
+.svg12gscs:hover .pathss21 {
+  fill: #2196F3;
+}
+/* ///modal */
+
+
+ /*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+/*# Close Section-1                                                                                  Close   Section-1                                                                                               Close Section-1 */
+ /*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */

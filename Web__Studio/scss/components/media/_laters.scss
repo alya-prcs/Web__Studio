@@ -1,0 +1,422 @@
+/* Medium: 1199px */
+@media (min-width: 1200px) {
+    .container {
+        width: 1200px;
+    }
+
+    .header__contacts {
+        display: flex;
+        align-items: center;
+    }
+
+    .header__item--tel {
+        padding-right: 0 !important;
+    }
+}
+
+@media (max-width: 1199px) {
+    .container {
+        width: 748px !important;
+        padding: 0 !important;
+    }
+
+    .footer-flex-box-1 {
+        max-width: 768px;
+        flex-wrap: wrap;
+    }
+
+    .fotero-1 {
+        padding: 0;
+        text-align: center;
+    }
+
+    .join-footer {
+        padding-left: 30px;
+    }
+
+    .navisdscdsa {
+        padding-top: 60px;
+        padding-left: 0px !important;
+    }
+
+    .ddnavil {
+        display: flex;
+        flex-wrap: wrap;
+        width: 380px;
+        padding: 0;
+        margin: 0;
+    }
+
+    .subscription-input {
+        padding: 0;
+        margin: 0;
+    }
+
+    .subscraib {
+        padding-left: 70px;
+    }
+
+    #a43 {
+        width: 748px !important;
+        padding: 0px !important;
+        display: flex !important;
+        justify-content: center !important;
+    }
+
+    footer .fotero-1 {
+        padding-right: 165px !important;
+    }
+
+    .subscraib {
+        font-family: Roboto;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 16.41px;
+        letter-spacing: 0.03em;
+        text-align: center;
+    }
+
+    #header {
+        padding-left: 40px !important;
+    }
+
+    .header__item--mail {
+        padding: 0 !important;
+    }
+
+    .header__item--tel {
+        display: flex;
+        justify-content: flex-end !important;
+        padding-right: 18px !important;
+        padding-left: 5px !important;
+    }
+
+    .header__link--tell {
+        padding-left: 2px !important;
+    }
+
+    .header__link--mail {
+        padding-left: 3px !important;
+    }
+
+    .header__menu a::before {
+        content: "";
+        width: 100%;
+        height: 4px;
+        position: absolute;
+        bottom: -30px !important;
+        background: #36a0f2;
+        border-radius: 3px;
+        transition: transform 400ms cubic-bezier(0.4, 0, 0.2, 1);
+        transform: scale3d(0, 1, 1);
+    }
+
+    .hhh1 {
+        margin-bottom: 30px;
+        font-weight: 900;
+        font-size: 26px !important;
+        line-height: 1.6153846154;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+    }
+
+    .one {
+        background-image: url(../img/foto12.jpg);
+        background-repeat: no-repeat;
+        background-position: 50%;
+        background-size: 1600px 400px;
+    }
+
+    .list {
+        width: 760px !important;
+        display: flex !important;
+        justify-content: center !important;
+        flex-wrap: wrap !important;
+        gap: 30px;
+    }
+
+    .team-main {
+        width: 760px !important;
+        display: flex !important;
+        justify-content: center !important;
+        flex-wrap: wrap !important;
+        gap: 30px;
+    }
+
+    .imgssa {
+        width: 760px !important;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center !important;
+        gap: 20px;
+    }
+
+    .special-item {
+        width: 354px;
+    }
+
+    .section-last100klient-box-item {
+        width: 738px !important;
+        display: flex !important;
+        flex-wrap: wrap !important;
+        justify-content: center !important;
+        gap: 30px !important;
+    }
+}
+
+/* Small: 576px - 767px */
+@media (max-width: 767px) {
+    .container {
+        width: 480px !important;
+    }
+
+    .footer-flex-box-1 {
+        flex-direction: column !important;
+        width: 460px;
+    }
+
+    .footer .fotero-1 {
+        padding-right: 0px !important;
+    }
+
+    .fotero-1 {
+        text-align: center;
+        padding: 0 !important;
+        padding-bottom: 60px !important;
+    }
+
+    .fotero-2 {
+        text-align: center !important;
+        padding-bottom: 30px;
+    }
+
+    .join-footer {
+        padding-left: 30px;
+    }
+
+    .navisdscdsa {
+        text-align: center !important;
+        padding: 0 !important;
+    }
+
+    .ddnavil {
+        display: flex;
+        flex-wrap: wrap;
+        width: 380px;
+        padding: 0;
+        margin: 0;
+    }
+
+    .subscription-input {
+        padding: 0;
+        margin: 0;
+    }
+
+    .subscraib {
+        padding-left: 70px;
+    }
+
+    footer .fotero-1 {
+        padding-right: 0 !important;
+    }
+
+    #a43 {
+        width: 480px !important;
+        padding: 0px !important;
+        display: flex !important;
+        justify-content: center !important;
+    }
+
+    .special-item {
+        width: 270px !important;
+    }
+
+    .list {
+        width: 450px !important;
+        display: flex;
+        justify-content: center !important;
+        flex-wrap: wrap;
+        margin: 0 auto;
+    }
+
+    .special-item {
+        width: 100% !important;
+    }
+
+    .texst1 {
+        text-align: center;
+    }
+
+    .special-item {
+        &:nth-of-type(1)::before {
+            content: "" !important;
+            display: block;
+            width: 100%;
+            height: 120px;
+            background-image: url(../img/group1.jpg);
+            background-position: center;
+        }
+
+        &:nth-of-type(2)::before {
+            content: "" !important;
+            display: block;
+            width: 100%;
+            height: 120px;
+            background-image: url(../img/group4.jpg);
+            background-position: center;
+        }
+
+        &:nth-of-type(3)::before {
+            content: "" !important;
+            display: block;
+            width: 100%;
+            height: 120px;
+            background-image: url(../img/group3.jpg);
+            background-position: center;
+        }
+
+        &:nth-of-type(4)::before {
+            content: "" !important;
+            display: block;
+            width: 100%;
+            height: 120px;
+            background-image: url(../img/group2.jpg);
+            background-position: center;
+        }
+    }
+
+    .imgssa {
+        width: 450px !important;
+        margin: 0 auto;
+    }
+
+    .teamss-text {
+        width: auto;
+    }
+
+    .team-main {
+        width: 450px !important;
+        display: flex;
+        margin: 0 auto !important;
+    }
+
+    .item-last {
+        width: 100%;
+
+        img {
+            width: 450px;
+            height: 460px;
+        }
+    }
+
+    .section-last100klient-box-item {
+        width: 380px !important;
+        margin: 0 auto !important;
+    }
+
+    .klient-section-text {
+        width: 100%;
+    }
+
+    .burger {
+        display: block !important;
+        position: relative;
+        width: 30px !important;
+        height: 20px !important;
+    }
+
+    .burger::before,
+    .burger::after {
+        content: "";
+        background-color: black;
+        position: absolute;
+        width: 100%;
+        height: 2px !important;
+        left: 0;
+    }
+
+    .burger::before {
+        top: 0;
+    }
+
+    .burger::after {
+        bottom: 0;
+    }
+
+    .burger span {
+        position: absolute;
+        left: 0;
+        top: 9px;
+        background-color: black;
+        height: 2px;
+        width: 100%;
+    }
+
+
+
+    .header__nav {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        background-color: white;
+        display: block !important;
+        text-align: left;
+        padding: 20px;
+        z-index: 999;
+        transition: transform 0.3s ease;
+        transform: translateX(-100%);
+    }
+    
+    .header__nav.active {
+        transform: translateX(0);
+    }
+    
+    /* Стилі для закриття меню (хрестик) */
+    .burger-close {
+        font-size: 40px;
+        align-self: flex-end;
+        cursor: pointer;
+        margin-bottom: 20px;
+    }
+    
+    /* Список меню */
+    .header__menu {
+        padding: 0;
+        margin: 0;
+    }
+    
+
+    
+    .header__link {
+        font-size: 24px;
+        color: black;
+        text-decoration: none;
+    }
+    
+    .header__link:hover {
+        color: #007bff; /* Синій при наведенні */
+    }
+    
+    /* Стилі для контактної інформації */
+    .header__contacts {
+        margin-top: 20px;
+    }
+    
+    .header__contacts a {
+        color: #007bff;
+        text-decoration: none;
+        font-size: 18px;
+    }
+    .cont-box {
+        display: flex;
+        justify-content: space-between;
+    }
+    .header__logo1 {
+        display: block !important;
+      }
+    .bur {
+        margin-left: 200px;
+    }
+}

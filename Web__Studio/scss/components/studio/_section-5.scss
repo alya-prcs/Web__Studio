@@ -1,0 +1,123 @@
+ /*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+/*# Open Section-5                                                                                   Open   Section-5                                                                                                 Open Section-5 */
+ /*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+ .klient-section-text {
+    padding-top: 94px;
+    font-weight: 900;  // Видалено 'px', так як 'font-weight' не приймає одиниці вимірювання
+    font-size: 36px;
+    margin: 0;
+    text-align: center;
+    padding-bottom: 50px;
+  }
+  
+  .section-last100klient-box-item {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 94px;
+  }
+  
+  .kliant00,
+  .kliant10,
+  .kliant20,
+  .kliant30,
+  .kliant40 {
+    .kliant02,
+    .kliant01,
+    .kliant11,
+    .kliant12,
+    .kliant13,
+    .kliant21,
+    .kliant22,
+    .kliant23,
+    .kliant24,
+    .kliant31,
+    .kliant32,
+    .kliant41,
+    .kliant42,
+    .kliant43,
+    .kliant44 {
+      transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1), stroke 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    
+    &:hover {
+      .kliant02,
+      .kliant11,
+      .kliant12,
+      .kliant21,
+      .kliant22,
+      .kliant23,
+      .kliant24,
+      .kliant31,
+      .kliant32,
+      .kliant41,
+      .kliant42,
+      .kliant43,
+      .kliant44 {
+        transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1), stroke 250ms cubic-bezier(0.4, 0, 0.2, 1);
+      }
+  
+      &.kliant00 {
+        .kliant02 {
+          fill: #2196f3;
+        }
+        .kliant01 {
+          stroke: #2196f3;
+        }
+      }
+  
+      &.kliant10 {
+        .kliant11,
+        .kliant12 {
+          fill: #2196f3;
+        }
+        .kliant13 {
+          stroke: #2196f3;
+        }
+      }
+  
+      &.kliant20 {
+        .kliant21 {
+          stroke: #2196f3;
+        }
+        .kliant22,
+        .kliant23,
+        .kliant24 {
+          fill: #2196f3;
+        }
+      }
+  
+      &.kliant30 {
+        .kliant31 {
+          stroke: #2196f3;
+        }
+        .kliant32 {
+          fill: #2196f3;
+        }
+      }
+  
+      &.kliant40 {
+        .kliant41 {
+          stroke: #2196f3;
+        }
+        .kliant42,
+        .kliant43,
+        .kliant44 {
+          fill: #2196f3;
+        }
+      }
+    }
+  }
+  
+  .kliant31 {
+    stroke: #AFB1B8;
+  }
+  
+  .kliant32 {
+    fill: #AFB1B8;
+  }
+
+/* */
+
+ /*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+/*# Close Section-5                                                                                  Close   Section-5                                                                                               Close Section-5 */
+ /*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
