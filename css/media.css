@@ -6,6 +6,10 @@
   }
   .header__contacts {
     display: flex;
+
+
+
+
     align-items: center;
   }
   .header__item--tel {
@@ -15,11 +19,14 @@
 @media (max-width: 1199px) {
   .container {
     width: 748px !important;
+
     padding: 0 !important;
   }
   .itemsmains {
     display: flex;
     justify-content: center;
+
+
     width: 750px;
   }
   .item-main {
@@ -27,6 +34,7 @@
   }
   .first0list {
     width: 100%;
+
   }
   .first0list {
     width: 100%;
@@ -35,10 +43,12 @@
   main {
     padding: 0;
     padding-top: 60px !important;
+
     padding-bottom: 60px !important;
   }
   .footer-flex-box-1 {
     max-width: 768px;
+
     flex-wrap: wrap;
   }
   .fotero-1 {
@@ -47,6 +57,7 @@
   }
   .join-footer {
     padding-left: 30px;
+
   }
   .navisdscdsa {
     padding-top: 60px;
@@ -57,11 +68,14 @@
     flex-wrap: wrap;
     width: 380px;
     padding: 0;
+
+
     margin: 0;
   }
   .subscription-input {
     padding: 0;
     margin: 0;
+
   }
   .subscraib {
     padding-left: 70px;
@@ -69,6 +83,7 @@
   #a43 {
     width: 748px !important;
     padding: 0px !important;
+
     display: flex !important;
     justify-content: center !important;
   }
@@ -77,8 +92,10 @@
   }
   .subscraib {
     font-family: Roboto;
+
     font-size: 14px;
     font-weight: 700;
+
     line-height: 16.41px;
     letter-spacing: 0.03em;
     text-align: center;
@@ -94,6 +111,7 @@
     justify-content: flex-end !important;
     padding-right: 18px !important;
     padding-left: 5px !important;
+
   }
   .header__link--tell {
     padding-left: 2px !important;
@@ -107,6 +125,7 @@
     height: 4px;
     position: absolute;
     bottom: -30px !important;
+    
     background: #36a0f2;
     border-radius: 3px;
     transition: transform 400ms cubic-bezier(0.4, 0, 0.2, 1);

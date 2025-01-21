@@ -45,6 +45,8 @@ button {
   color: $text-color;
   width: 300px;
   height: 40px;
+
+
 }
 
 a {
@@ -54,6 +56,7 @@ a {
 ul {
   list-style: none;
   padding: 0;
+
 }
 
 figcaption {
@@ -68,6 +71,8 @@ figcaption {
   fill: #2196f3;
 }
 
+
+
 .insta0 .insta2 {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -77,6 +82,8 @@ figcaption {
 }
 
 .insta0 .insta3 {
+
+
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -89,6 +96,7 @@ figcaption {
 }
 
 .insta0:hover .insta4 {
+
   fill: #ffffff;
 }
 
@@ -98,6 +106,7 @@ figcaption {
 
 .twitter0:hover .twitter1 {
   fill: #2196f3;
+
 }
 
 .twitter0 .twitter2 {
@@ -114,6 +123,7 @@ figcaption {
 
 .face0:hover .face1 {
   fill: #2196f3;
+
 }
 
 .face0 .face2 {
@@ -130,6 +140,7 @@ figcaption {
 
 .in0:hover .in1 {
   fill: #2196f3;
+
 }
 
 .in0 .in2 {
@@ -138,6 +149,8 @@ figcaption {
 
 .in0:hover .in2 {
   fill: #ffffff;
+
+
 }
 
 .in0 .in3 {
@@ -146,5 +159,7 @@ figcaption {
 
 .in0:hover .in3 {
   fill: #ffffff;
+
+  
 }
 
